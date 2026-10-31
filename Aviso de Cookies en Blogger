@@ -22,9 +22,9 @@ Luego, utiliza el siguiente código CSS para dar estilo al Aviso de Cookies. Deb
   --color-fondo-aviso: #000000;               
   --color-del-parrafo: #ffffff;              
   --tamano-parrafo: 16px;                   
-  --color-boton-aceptar: #b51200;        
-  --color-texto-boton-aceptar: #ffffff;      
-  --color-texto-leer-mas: #ffffff;         
+  --color-boton-aceptar: #f4a900;        
+  --color-texto-boton-aceptar: #000000;      
+  --color-texto-leer-mas: #33a1fd;         
 }
 .cookie-container{position:fixed;bottom:-100%;left:0;right:0;z-index:999999999999999;transition:400ms;background:var(--color-fondo-aviso);padding:15px;box-shadow:1px 7px 14px -5px rgba(0,0,0,.15);text-align:center;font-size:var(--tamano-parrafo)}
 .cookie-content{color:var(--color-del-parrafo)}
