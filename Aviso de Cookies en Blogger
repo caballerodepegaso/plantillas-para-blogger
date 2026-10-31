@@ -20,7 +20,7 @@ Luego, utiliza el siguiente código CSS para dar estilo al Aviso de Cookies. Deb
 /* Estilos del Aviso de Cookies */
 :root{
   --color-fondo-aviso: #000000;               
-  --color-del-parrafo: #ffffff;              
+  --color-del-parrafo: #f8f9fa;              
   --tamano-parrafo: 16px;                   
   --color-boton-aceptar: #f4a900;        
   --color-texto-boton-aceptar: #000000;      
