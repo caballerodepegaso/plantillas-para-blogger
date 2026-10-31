@@ -6,10 +6,10 @@ de la etiqueta <body Recuerda colocar la URL de la página de Cookies en lugar d
  
 <div class='cookie-container'>
 <div class='cookie-content'>
-Para mejorar tu experiencia de usuario, estamos utilizando cookies que nos ayudan a saber tus preferencias.
+Utilizamos cookies para garantizar que obtengas la mejor experiencia de navegación en nuestra página web.
 <div class='buttons'>
-<button class='item'>Permitir</button>
-<a class='item' href='ENLACE A LA PÁGINA DE COOKIES' target='_blank'>¿Quieres saber más?</a>
+<button class='item'>Aceptar</button>
+<a class='item' href='ENLACE A LA PÁGINA DE COOKIES' target='_blank'>Más información</a>
 </div> 
 </div> 
 </div>
