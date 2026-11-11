@@ -66,11 +66,11 @@ body{background:$(body.background);background-color:$(body.background.color);fon
 .post-image-link:hover .post-thumb,.post-image-wrap:hover .post-image-link .post-thumb,.slider-item-inner:hover .post-image-link .post-thumb{opacity:.9}
 .post-title a{display:block}
 .social a:before{display:inline-block;font-family:FontAwesome;font-style:normal;font-weight:400}
-.social .blogger a:before{content:"\f37d"}
 .social .facebook a:before{content:"\f09a"}
 .social .twitter a:before{content:"\f099"}
+.social .gplus a:before{content:"\f0d5"}
 .social .rss a:before{content:"\f09e"}
-.social .youtube a:before{content:"\f167"}
+.social .youtube a:before{content:"\f16a"}
 .social .skype a:before{content:"\f17e"}
 .social .stumbleupon a:before{content:"\f1a4"}
 .social .tumblr a:before{content:"\f173"}
@@ -90,12 +90,14 @@ body{background:$(body.background);background-color:$(body.background.color);fon
 .social .reddit a:before{content:"\f1a1"}
 .social .whatsapp a:before{content:"\f232"}
 .social .snapchat a:before{content:"\f2ac"}
+.social .telegram a:before{content:"\f2c6"}
+.social .paypal a:before{content:"\f1ed"}
 .social .email a:before{content:"\f0e0"}
 .social .external-link a:before{content:"\f35d"}
-.social-color .blogger a{background-color:#ff5722}
 .social-color .facebook a{background-color:#3b5999}
 .social-color .twitter a{background-color:#00acee}
-.social-color .youtube a{background-color:#f50000}
+.social-color .gplus a{background-color:#db4a39}
+.social-color .youtube a{background-color:#db4a39}
 .social-color .instagram a{background:linear-gradient(15deg,#ffb13d,#dd277b,#4d5ed4)}
 .social-color .pinterest a{background-color:#ca2127}
 .social-color .dribbble a{background-color:#ea4c89}
@@ -116,6 +118,8 @@ body{background:$(body.background);background-color:$(body.background.color);fon
 .social-color .reddit a{background-color:#ff4500}
 .social-color .whatsapp a{background-color:#3fbb50}
 .social-color .snapchat a{background-color:#ffe700}
+.social-color .telegram a{background-color:#0088cc}
+.social-color .paypal a{background-color:#003087}
 .social-color .email a{background-color:#888}
 .social-color .external-link a{background-color:$(main.dark.color)}
 #header-wrap{position:relative;margin:0}
