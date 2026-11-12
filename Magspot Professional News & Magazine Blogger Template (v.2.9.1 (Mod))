@@ -2460,7 +2460,7 @@ body#layout #hidden-widgets{display:none!important}
       <form class='search-form' expr:action='data:blog.searchUrl'>
         <b:attr cond='!data:view.isPreview' name='target' value='_top'/>
         <b:include name='urlParamsAsFormInput'/>
-        <input autocomplete='off' class='search-input' expr:aria-label='data:messages.search' expr:placeholder='data:messages.search' name='q' type='search' value=''/>
+        <input autocomplete='off' class='search-input' expr:aria-label='data:messages.searchBlog' expr:placeholder='data:messages.searchBlog' name='q' type='search' value=''/>
         <b:include name='searchSubmit'/>
       </form>
     </b:includable>
@@ -2678,14 +2678,14 @@ body#layout #hidden-widgets{display:none!important}
               <div class='flex-right'>
                 <div class='toggle-wrap'>
                   <b:tag aria-label='Dark Mode' class='darkmode-toggle' cond='data:skin.vars.darkmode == &quot;0px&quot; and (data:skin.vars.userdarkmode == &quot;1px&quot;)' href='#' name='a' role='button'/>
-                  <b:tag class='search-toggle show-search' expr:title='data:messages.search' href='#' name='a' role='button'/>
+                  <b:tag class='search-toggle show-search' expr:title='data:messages.searchBlog' href='#' name='a' role='button'/>
                 </div>
               </div>
               <div id='main-search-wrap'>
                 <div class='main-search'>
                   <form class='search-form' expr:action='data:blog.searchUrl'>
                     <b:attr cond='!data:view.isPreview' name='target' value='_top'/>
-                    <input autocomplete='off' class='search-input' expr:aria-label='data:messages.search' expr:placeholder='data:messages.search' name='q' type='search' value=''/>
+                    <input autocomplete='off' class='search-input' expr:aria-label='data:messages.searchBlog' expr:placeholder='data:messages.searchBlog' name='q' type='search' value=''/>
                     <button class='search-toggle search-close' type='reset' value=''/>
                   </form>
                 </div>
