@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html>
-<html b:css='false' b:defaultwidgetversion='2' b:js='false' b:layoutsVersion='3' expr:dir='data:blog.languageDirection' expr:lang='data:blog.locale' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
-<b:include name='root'/>
- <head>
+<html b:css="false" b:js="false" b:defaultwidgetversion="2" b:layoutsVersion="3" expr:dir="data:blog.languageDirection" expr:lang="data:blog.locale">
+  <b:include name="root"/>
+  <head>
     <title><data:view.title.escaped/></title>
     <b:include name="zk:head"/>
     <b:if cond="!data:view.isLayoutMode">
@@ -19,34 +19,34 @@
         
         Admin
         =====================
-        <Variable name="a.tools" description="Admin tools" type="string" value="false"/>
-        <Variable name="a.access" description="Accessibility mode" type="string" value="true"/>
-        <Variable name="a.edit" description="Shortcut edit post" type="string" value="true"/>
+        <Variable name="a.tools" description="Admin tools" type="string" value="true"/>
+        <Variable name="a.access" description="Accessibility mode" type="string" value="false"/>
+        <Variable name="a.edit" description="Shortcut edit post" type="string" value="false"/>
         <Variable name="a.jumpLink" description="JumpLink alert" type="string" value="false"/>
 
         Default
         =====================
         <Variable name="d.favicon" description="HD favicon" type="string" value=""/>
-        <Variable name="d.ogImage" description="og:imagen" type="string" value="Discord"/>
+        <Variable name="d.ogImage" description="og:imagen" type="string" value=""/>
         <Variable name="d.image" description="Imagen" type="string" value=""/>
         <Variable name="d.avatar" description="Avatar" type="string" value="https://lh3.googleusercontent.com/a/default-user=s50"/>
         <Variable name="d.profileUrl" description="Author url" type="string" value="https://blogger.com"/>
 
         General
         =====================
-        <Variable name="g.scheme" description="Scheme by default" type="string" value="light"/>
+        <Variable name="g.scheme" description="Scheme by default" type="string" value="system"/>
         <Variable name="g.toggleScheme" description="Show toggle scheme" type="string" value="true"/>
         <Variable name="g.modalSearch" description="Enable modal search" type="string" value="true"/>
         <Variable name="g.formspree" description="Form ID" type="string" value="YourID"/>
 
         Comentarios
         =====================
-        <Variable name="c.depth" description="Replies level" type="string" value="3"/>
+        <Variable name="c.depth" description="Replies level" type="string" value="2"/>
         <Variable name="c.newer" description="New comments first" type="string" value="true"/>
         <Variable name="c.formFirst" description="Form first" type="string" value="true"/>
         <Variable name="c.filter" description="Enable link filter" type="string" value="true"/>
         <Variable name="c.disqus" description="Disqus shortname" type="string" value="false"/>
-        <Variable name="c.clickToLoad" description="Click and load comments" type="string" value="true"/>
+        <Variable name="c.clickToLoad" description="Click and load comments" type="string" value="false"/>
 
         Cards
         =====================
@@ -54,21 +54,21 @@
         <Variable name="e.snippet" description="Show Snippet" type="string" value="true"/>
         <Variable name="e.meta" description="Show Meta" type="string" value="true"/>
         <Variable name="e.colsMin" description="Min column width" type="string" value="16rem"/>
-        <Variable name="e.truncate" description="Amount of text" type="string" value="500"/>
-        <Variable name="e.lineClamp" description="Number of lines" type="string" value="3"/>
+        <Variable name="e.truncate" description="Amount of text" type="string" value="300"/>
+        <Variable name="e.lineClamp" description="Number of lines" type="string" value="2"/>
         <Variable name="e.ratio" description="Default cover ratio" type="string" value="16:9"/>
-        <Variable name="e.claRatio" description="Classic cover ratio" type="string" value="16:9"/>
-        <Variable name="e.gaRatio" description="Gallery cover ratio" type="string" value="16:9"/>
-        <Variable name="e.ytThumbnail" description="Posts YouTube thumbnail" type="string" value="maxresdefault"/>
-        <Variable name="e.definedTags" description="Feature Tags" type="string" value="false"/>
+        <Variable name="e.claRatio" description="Classic cover ratio" type="string" value="21:9"/>
+        <Variable name="e.gaRatio" description="Gallery cover ratio" type="string" value="4:3"/>
+        <Variable name="e.ytThumbnail" description="Posts YouTube thumbnail" type="string" value="hqdefault"/>
+        <Variable name="e.definedTags" description="Feature Tags" type="string" value="true"/>
 
         Post
         =====================
         <Variable name="p.shareOn" description="Share on" type="string" value="facebook, twitter, whatsapp, telegram"/>
-        <Variable name="p.pagination" description="Pagination in post" type="string" value="true"/>
+        <Variable name="p.pagination" description="Pagination in post" type="string" value="false"/>
         <Variable name="p.template" description="Default post template" type="string" value="default"/>
         <Variable name="p.innerContent" description="Internal content every" type="string" value="4"/>
-        <Variable name="p.highlight" description="Enable highlight.js" type="string" value="true"/>
+        <Variable name="p.highlight" description="Enable highlight.js" type="string" value="false"/>
         <Variable name="p.autoToc" description="Enable auto TOC" type="string" value="false"/>
         <Variable name="p.tocHeading" description="Headings for TOC" type="string" value="h2, h3, h4"/>
         <Variable name="p.related" description="Enable related post" type="string" value="2"/>
@@ -85,7 +85,7 @@
         <Variable name="f.swap" description="Swap blog and sidebar" type="string" value="false"/>
         <Variable name="f.filter" description="Enable search filters" type="string" value="false"/>
         <Variable name="f.more" description="Show more button" type="string" value="true"/>
-        <Variable name="f.pagination" description="Navigation type" type="string" value="numeric"/>
+        <Variable name="f.pagination" description="Navigation type" type="string" value="default"/>
         <Variable name="f.cleanXml" description="Clean blogger XML" type="string" value="true"/>
         <Variable name="f.imageParams" description="Custom image parameters" type="string" value="rw-l80-e30"/>
         <Variable name="f.cloudflare" description="SSL/TLS by Cloudflare" type="string" value="true"/>
