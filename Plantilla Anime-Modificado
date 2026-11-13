@@ -118,11 +118,11 @@
 
         Personalizar
         =====================
-        <Variable name="keycolor" description="keycolor" type="color" default="#2196f3" value="#000000"/>
-        <Variable name="body.background" description="Background" type="background" default="$(color) none repeat scroll top center" color="$(body.background.color)" value="#efe0cb url(https://themes.googleusercontent.com/image?id=1JnaUR617vN187sHsY6g8xNVF6pVifULShzBF9uPMSFikevM4uUZDbk_YpKb1eq7yvnoA) no-repeat fixed top center /* Credit: sndr (http://www.istockphoto.com/portfolio/sndr?platform=blogger) */"/>
+        <Variable name="keycolor" description="keycolor" type="color" default="#2196f3" value="#2196f3"/>
+        <Variable name="body.background" description="Background" type="background" default="$(color) none repeat scroll top center" color="$(body.background.color)" value="$(color) none repeat scroll top center"/>
         <Group description="Accents">
-          <Variable name="accent.primary" description="Action color" type="color" default="#10aeb9" value="#B51200"/>
-          <Variable name="accent.secondary" description="Alternate Color" type="color" default="#0a686f" value="#D52C1F"/>
+          <Variable name="accent.primary" description="Action color" type="color" default="#10aeb9" value="#10aeb9"/>
+          <Variable name="accent.secondary" description="Alternate Color" type="color" default="#0a686f" value="#0a686f"/>
         </Group>
         <Group description="Font">
           <Variable name="blog.logo.font" description="Blog Title Font" type="font" default="32px var(--font-primary)" value="32px var(--font-primary)"/>
@@ -143,51 +143,51 @@
           <Variable name="tg.inline" description="Typography inline space " type="length" default="8px" min="0px" max="50px" value="8px"/>
         </Group>
         <Group description="Light mode">
-          <Variable name="body.background.color" description="Body background color" type="color" default="#e4e4e7" value="#e0dedc"/>
-          <Variable name="light.bg.template" description="Main Background Color" type="color" default="#fff" value="#ffffff"/>
-          <Variable name="light.bg.default" description="Background color (Bottom)" type="color" default="#f2f2f2" value="#ebebeb"/>
-          <Variable name="light.bg.inset" description="Background color (Top)" type="color" default="#e6e6e6" value="#dfdfdf"/>
-          <Variable name="light.color.title" description="Title color" type="color" default="#404040" value="#000000"/>
-          <Variable name="light.color.text" description="Content color" type="color" default="#808080" value="#000000"/>
-          <Variable name="light.header.bg" description="Header Background" type="color" default="#fff" value="#ffffff"/>
-          <Variable name="light.logo.color" description="Blog Title Color" type="color" default="#262626" value="#000000"/>
-          <Variable name="light.desc.color" description="Blog Description Color" type="color" default="#808080" value="#636363"/>
-          <Variable name="light.nav.bg" description="Nav Background" type="color" default="#1c1c1c" value="#B51200"/>
-          <Variable name="light.nav.color" description="Nav Color" type="color" default="#fff" value="#ffffff"/>
-          <Variable name="light.nav.subnav" description="Nav Subnav Background" type="color" default="#090909" value="#000000"/>
-          <Variable name="light.nav.secondary.bg" description="Nav Secondary Background" type="color" default="transparent" value="rgba(0,0,0,0)"/>
-          <Variable name="light.nav.secondary.color" description="Nav Secondary Color" type="color" default="#404040" value="#000000"/>
-          <Variable name="light.footer.bg" description="Footer Gadget Background" type="color" default="#090909" value="#000000"/>
-          <Variable name="light.footer.lower.bg" description="Footer Background" type="color" default="#1c1c1c" value="#000000"/>
-          <Variable name="light.footer.links.color" description="Footer Links" type="color" default="#fff" value="#ffffff"/>
-          <Variable name="light.cookie.bg" description="Cookie Background" type="color" default="#fff" value="#000000"/>
-          <Variable name="light.cookie.color" description="Cookie Color" type="color" default="#3f3f46" value="#FFFFFF"/>
+          <Variable name="body.background.color" description="Body background color" type="color" default="#e4e4e7" value="#e4e4e7"/>
+          <Variable name="light.bg.template" description="Main Background Color" type="color" default="#fff" value="#fff"/>
+          <Variable name="light.bg.default" description="Background color (Bottom)" type="color" default="#f2f2f2" value="#f2f2f2"/>
+          <Variable name="light.bg.inset" description="Background color (Top)" type="color" default="#e6e6e6" value="#e6e6e6"/>
+          <Variable name="light.color.title" description="Title color" type="color" default="#404040" value="#404040"/>
+          <Variable name="light.color.text" description="Content color" type="color" default="#808080" value="#808080"/>
+          <Variable name="light.header.bg" description="Header Background" type="color" default="#fff" value="#fff"/>
+          <Variable name="light.logo.color" description="Blog Title Color" type="color" default="#262626" value="#262626"/>
+          <Variable name="light.desc.color" description="Blog Description Color" type="color" default="#808080" value="#808080"/>
+          <Variable name="light.nav.bg" description="Nav Background" type="color" default="#1c1c1c" value="#1c1c1c"/>
+          <Variable name="light.nav.color" description="Nav Color" type="color" default="#fff" value="#fff"/>
+          <Variable name="light.nav.subnav" description="Nav Subnav Background" type="color" default="#090909" value="#090909"/>
+          <Variable name="light.nav.secondary.bg" description="Nav Secondary Background" type="color" default="transparent" value="transparent"/>
+          <Variable name="light.nav.secondary.color" description="Nav Secondary Color" type="color" default="#404040" value="#404040"/>
+          <Variable name="light.footer.bg" description="Footer Gadget Background" type="color" default="#090909" value="#090909"/>
+          <Variable name="light.footer.lower.bg" description="Footer Background" type="color" default="#1c1c1c" value="#1c1c1c"/>
+          <Variable name="light.footer.links.color" description="Footer Links" type="color" default="#fff" value="#fff"/>
+          <Variable name="light.cookie.bg" description="Cookie Background" type="color" default="#fff" value="#fff"/>
+          <Variable name="light.cookie.color" description="Cookie Color" type="color" default="#3f3f46" value="#3f3f46"/>
         </Group>
         <Group description="Dark mode">
           <Variable name="dark.body.color" description="Body background color" type="color" default="#000000" value="#000000"/>
-          <Variable name="dark.bg.template" description="Main Background Color" type="color" default="#101010" value="#000000"/>
-          <Variable name="dark.bg.default" description="Background color (Bottom)" type="color" default="#161717" value="#000000"/>
-          <Variable name="dark.bg.inset" description="Background color (Top)" type="color" default="#282a2a" value="#000000"/>
-          <Variable name="dark.color.title" description="Title color" type="color" default="#fff" value="#ffffff"/>
-          <Variable name="dark.color.text" description="Content color" type="color" default="#8f8f98" value="#85807a"/>
-          <Variable name="dark.header.bg" description="Header Background" type="color" default="#101010" value="#000000"/>
-          <Variable name="dark.logo.color" description="Blog Title Color" type="color" default="#fff" value="#ffffff"/>
-          <Variable name="dark.desc.color" description="Blog Description Color" type="color" default="#8f8f98" value="#85807a"/>
-          <Variable name="dark.nav.bg" description="Nav Background" type="color" default="#202222" value="#B51200"/>
-          <Variable name="dark.nav.color" description="Nav Color" type="color" default="#fff" value="#ffffff"/>
-          <Variable name="dark.nav.subnav" description="Nav Subnav Background" type="color" default="#090909" value="#000000"/>
-          <Variable name="dark.nav.secondary.bg" description="Nav Secondary Background" type="color" default="transparent" value="rgba(0,0,0,0)"/>
-          <Variable name="dark.nav.secondary.color" description="Nav Secondary Color" type="color" default="#fff" value="#ffffff"/>
-          <Variable name="dark.footer.widgets" description="Footer Gadget Background" type="color" default="#090909" value="#000000"/>
-          <Variable name="dark.footer.bg" description="Footer Background" type="color" default="#202222" value="#000000"/>
-          <Variable name="dark.footer.color" description="Footer Links" type="color" default="#fff" value="#ffffff"/>
-          <Variable name="dark.cookie.bg" description="Cookie Background" type="color" default="#000" value="#000000"/>
-          <Variable name="dark.cookie.color" description="Cookie Color" type="color" default="#fff" value="#ffffff"/>
+          <Variable name="dark.bg.template" description="Main Background Color" type="color" default="#101010" value="#101010"/>
+          <Variable name="dark.bg.default" description="Background color (Bottom)" type="color" default="#161717" value="#161717"/>
+          <Variable name="dark.bg.inset" description="Background color (Top)" type="color" default="#282a2a" value="#282a2a"/>
+          <Variable name="dark.color.title" description="Title color" type="color" default="#fff" value="#fff"/>
+          <Variable name="dark.color.text" description="Content color" type="color" default="#8f8f98" value="#8f8f98"/>
+          <Variable name="dark.header.bg" description="Header Background" type="color" default="#101010" value="#101010"/>
+          <Variable name="dark.logo.color" description="Blog Title Color" type="color" default="#fff" value="#fff"/>
+          <Variable name="dark.desc.color" description="Blog Description Color" type="color" default="#8f8f98" value="#8f8f98"/>
+          <Variable name="dark.nav.bg" description="Nav Background" type="color" default="#202222" value="#202222"/>
+          <Variable name="dark.nav.color" description="Nav Color" type="color" default="#fff" value="#fff"/>
+          <Variable name="dark.nav.subnav" description="Nav Subnav Background" type="color" default="#090909" value="#090909"/>
+          <Variable name="dark.nav.secondary.bg" description="Nav Secondary Background" type="color" default="transparent" value="transparent"/>
+          <Variable name="dark.nav.secondary.color" description="Nav Secondary Color" type="color" default="#fff" value="#fff"/>
+          <Variable name="dark.footer.widgets" description="Footer Gadget Background" type="color" default="#090909" value="#090909"/>
+          <Variable name="dark.footer.bg" description="Footer Background" type="color" default="#202222" value="#202222"/>
+          <Variable name="dark.footer.color" description="Footer Links" type="color" default="#fff" value="#fff"/>
+          <Variable name="dark.cookie.bg" description="Cookie Background" type="color" default="#000" value="#000"/>
+          <Variable name="dark.cookie.color" description="Cookie Color" type="color" default="#fff" value="#fff"/>
         </Group>
 
         Formulario de comentarios
         =====================
-        <Variable name="posts.text.color" description="Content color" type="color" default="#666" hideEditor="true" value="#000000"/>
+        <Variable name="posts.text.color" description="Content color" type="color" default="#666" value="#666" hideEditor="true"/>
         <Variable name="posts.link.color" description="posts.link.color" type="string" value="#666"/>
         <Variable name="posts.text.font" description="posts.text.font" type="string" value="15px Roboto"/>
         <Variable name="posts.background.color" description="posts.background.color" type="string" value="transparent"/>
